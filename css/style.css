@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Pangolin', cursive;
+}
+.container {
+    width: 100%;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.align {
+    text-align: center;
+}
+.menu-item {
+    background-color: #878787;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+}
+.menu-item .align {
+    margin-top: 0;
+}
+.navbar-header{
+    background-color: #878787;
+}
+.navbar {
+    background-color: #878787;
+    margin-bottom: 0;
+}
+.navbar-logo {
+    color: black;
+    line-height: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-brand {
+    float: left;
+    height: 0px;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.navbar-toggle {
+    margin-top: 0;
+    padding: 6px 4px;
+    margin-bottom: 0;
+    
+
+}
+.navbar-default .navbar-toggle {
+    border-color: black;
+    border-width: 2px;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+.our-menu.container {
+    padding: 20px 50px;
+}
+.navbar-toggle .icon-bar {
+    height: 4px; 
+    width: 30px;
+}
+
+.icon-bar:not(:last-child) {
+    margin-bottom: 6px;
+}
+
+.navbar-nav>li>a {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 3px solid #000;
+
+}
+.navbar-collapse {
+    padding: 0;
+}
+.navbar-default .navbar-default {
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    border-top-width: 3px;
+    border-top-color: #000;
+}
+.collapse.in {
+    background-color: white;
+}
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar.navbar-default {
+    border-bottom: 3px solid #000;
+    border-top: 3px solid #000;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    border-color: #c3c3c3;
+}
+
+.our-menu .align {
+    margin-top: 0;
+}
+
+.menu-item h3 {
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .navbar.navbar-default {
+        min-height: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .our-menu.container {
+        padding: 20px 20px;
+    }
+
+}
